@@ -11,6 +11,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest'
   },
+  parser: 'babel-eslint',
   rules: {
     'comma-dangle': [2, 'never'],
     'linebreak-style': 0,
